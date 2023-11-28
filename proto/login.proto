@@ -1,0 +1,29 @@
+syntax = "proto3";
+package proto;
+option go_package = ".;proto";
+
+// 登录
+message login_tos{
+  uint64 uid = 1;
+  string username = 2;
+}
+
+message login_toc{
+  uint32 code = 1;
+  uint64 uid = 2;
+  string username = 3;
+}
+
+// 创建
+message create_role_tos{
+  uint64 uid = 1;
+  uint32 sex = 2;
+  string name = 3;
+}
+
+message create_role_toc{
+  uint32 code = 1;
+  uint64 rid = 2;
+  uint64 uid = 3;
+  string name = 4;
+}
