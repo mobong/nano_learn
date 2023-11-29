@@ -7,6 +7,7 @@ import (
 	"github.com/lonng/nano/serialize/protobuf"
 	"github.com/spf13/viper"
 	"nano_learn/db"
+	"nano_learn/src/datajson"
 	"nano_learn/src/logic"
 	"net/http"
 	"os"
@@ -19,6 +20,8 @@ func StartUp() {
 	// start mysql
 	closer := db.DbStartUp()
 	defer closer()
+	// 加载配置
+	datajson.Load()
 	comps := &component.Components{}
 	comps.Register(logic.NewManager())
 

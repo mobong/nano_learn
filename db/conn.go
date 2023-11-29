@@ -49,6 +49,7 @@ func DbStartUp() func() {
 		fmt.Println("db stop!!!")
 	}
 
+	fmt.Println("mysql start succ!!!")
 	return closer
 }
 

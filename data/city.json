@@ -1,0 +1,138 @@
+{
+  "title": "主城配置",
+  "name": "主城",
+  "type": 0,
+  "des": "主城配置表",
+  "additions": [
+    1,
+    2
+  ],
+  "conditions": [
+    {
+      "type": 0,
+      "level": 1
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "values": [1, 2],
+      "need": {
+        "decree": 1,
+        "grain": 1,
+        "wood": 1,
+        "iron": 1,
+        "stone": 1
+      },
+      "time": 10
+    },
+    {
+      "level": 2,
+      "values": [2, 3],
+      "need": {
+        "decree": 0,
+        "grain": 2,
+        "wood": 2,
+        "iron": 2,
+        "stone": 2
+      },
+      "time": 20
+    },
+    {
+      "level": 3,
+      "values": [3, 4],
+      "need": {
+        "decree": 0,
+        "grain": 3,
+        "wood": 3,
+        "iron": 3,
+        "stone": 3
+      },
+      "time": 30
+    },
+    {
+      "level": 4,
+      "values": [4, 5],
+      "need": {
+        "decree": 0,
+        "grain": 4,
+        "wood": 4,
+        "iron": 4,
+        "stone": 4
+      },
+      "time": 40
+    },
+    {
+      "level": 5,
+      "values": [5, 6],
+      "need": {
+        "decree": 0,
+        "grain": 5,
+        "wood": 5,
+        "iron": 5,
+        "stone": 5
+      },
+      "time": 50
+    },
+    {
+      "level": 6,
+      "values": [6, 7],
+      "need": {
+        "decree": 0,
+        "grain": 6,
+        "wood": 6,
+        "iron": 6,
+        "stone": 6
+      },
+      "time": 60
+    },
+    {
+      "level": 7,
+      "values": [7, 8],
+      "need": {
+        "decree": 0,
+        "grain": 7,
+        "wood": 7,
+        "iron": 7,
+        "stone": 7
+      },
+      "time": 70
+    },
+    {
+      "level": 8,
+      "values": [8, 9],
+      "need": {
+        "decree": 0,
+        "grain": 8,
+        "wood": 8,
+        "iron": 8,
+        "stone": 8
+      },
+      "time": 80
+    },
+    {
+      "level": 9,
+      "values": [9, 10],
+      "need": {
+        "decree": 0,
+        "grain": 9,
+        "wood": 9,
+        "iron": 9,
+        "stone": 9
+      },
+      "time": 90
+    },
+    {
+      "level": 10,
+      "values": [10, 11],
+      "need": {
+        "decree": 0,
+        "grain": 10,
+        "wood": 10,
+        "iron": 10,
+        "stone": 10
+      },
+      "time": 100
+    }
+  ]
+}
